@@ -27,6 +27,10 @@ Before delving deeper into our OCR model, I’d like to point out that Jupyter n
 <img src="https://github.com/burak0006/OCR-Tesseract-and-Text-Detection/blob/2fd6cc405b61e80e11d8e8121d436f3d695eba83/image/index.png" width = "800" height = "300"/>
 
 ### Results
+Important Note: You need to verify your path where the tesseract engine is installed.
+```sh
+pytesseract.pytesseract.tesseract_cmd = r'/usr/local/Cellar/tesseract/4.1.1/bin/tesseract
+```
 
 UK DRIVING LICENCE
 1. MORGAN
